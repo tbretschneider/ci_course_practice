@@ -1,6 +1,5 @@
 import numbers
 
-
 def greet(name=""):
     """
     A function that takes a name and returns a greeting.

@@ -16,7 +16,17 @@ author = 'Tobi'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
+    'sphinx.ext.autosummary',
         ]
+
+# Recommended autodoc defaults
+autodoc_default_options = {
+    "members": True,
+    "undoc-members": False,
+    "private-members": False,
+    "show-inheritance": True,
+}
+autosummary_generate = True   # generate stubs for autosummary
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
