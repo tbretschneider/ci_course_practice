@@ -14,6 +14,5 @@ documentation for details.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-        ci_course
+    ci_course
 
