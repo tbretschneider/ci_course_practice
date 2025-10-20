@@ -9,6 +9,9 @@
 project = 'ci-docs'
 copyright = '2025, Tobi'
 author = 'Tobi'
+import os
+import sys
+sys.path.insert(0, os.path.abspath(".."))  # make your package importable
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
